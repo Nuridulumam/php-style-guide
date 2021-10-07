@@ -1,6 +1,8 @@
-# php-style-guide
+# PHP Style Guide
 
-# Paysera PHP Style Guide with personal seasoning
+A paysera php style guide with personal seasoning
+
+<!-- toc -->
 
 This Guide is divided into several parts:
 
