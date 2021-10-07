@@ -7,9 +7,8 @@ Table of Contents
 
 1. [File Format](#file-format)
 
-
-    - [TextMate](#text-mate)
-    - [BBEdit](#bbedit)
+   - [TextMate](#text-mate)
+   - [BBEdit](#bbedit)
 
 1. [PHP Closing Tag](#php-closing-tag)
 1. [File Naming](#file-naming)
@@ -37,13 +36,13 @@ Table of Contents
 1. [SQL Queries](#sql-queries)
 1. [Default Function Arguments](#default-function-arguments)
 
-(#file-format) **File Format**
+# File Format
 
 Files should be saved with Unicode (UTF-8) encoding. The BOM should not be used. Unlike UTF-16 and UTF-32, there’s no byte order to indicate in a UTF-8 encoded file, and the BOM can have a negative side effect in PHP of sending output, preventing the application from being able to set its own headers. Unix line endings should be used (LF).
 
 Here is how to apply these settings in some of the more common text editors. Instructions for your text editor may vary; check your text editor’s documentation.
 
-(#text-mate) **TextMate**
+## Text Mate
 
 1.  Open the Application Preferences
 1.  Click Advanced, and then the “Saving” tab
@@ -51,7 +50,7 @@ Here is how to apply these settings in some of the more common text editors. Ins
 1.  In “Line Endings”, select “LF (recommended)”
 1.  Optional: Check “Use for existing files as well” if you wish to modify the line endings of files you open to your new preference.
 
-(#bbedit) **BBEdit**
+## BBEdit
 
 1.  Open the Application Preferences
 1.  Select “Text Encodings” on the left.
@@ -60,11 +59,12 @@ Here is how to apply these settings in some of the more common text editors. Ins
 1.  Select “Text Files” on the left.
 1.  In “Default line breaks”, select “Mac OS X and Unix (LF)”
 
-(#php-closing-tag) **PHP Closing Tag**
+# PHP Closing Tag
 
 The PHP closing tag on a PHP document ?> is optional to the PHP parser. However, if used, any whitespace following the closing tag, whether introduced by the developer, user, or an FTP application, can cause unwanted output, PHP errors, or if the latter are suppressed, blank pages. For this reason, all PHP files MUST OMIT the PHP closing tag and end with a single empty line instead.
 
-(#file-naming) **File Naming**
+# File Naming
+
 Class files must be named in a Ucfirst-like manner, while any other file name (configurations, views, generic scripts, etc.) should be in all lowercase.
 
 ```php
