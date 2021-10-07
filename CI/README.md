@@ -42,7 +42,7 @@ Files should be saved with Unicode (UTF-8) encoding. The BOM should not be used.
 
 Here is how to apply these settings in some of the more common text editors. Instructions for your text editor may vary; check your text editor’s documentation.
 
-## Text Mate
+### Text Mate
 
 1.  Open the Application Preferences
 1.  Click Advanced, and then the “Saving” tab
@@ -50,7 +50,7 @@ Here is how to apply these settings in some of the more common text editors. Ins
 1.  In “Line Endings”, select “LF (recommended)”
 1.  Optional: Check “Use for existing files as well” if you wish to modify the line endings of files you open to your new preference.
 
-## BBEdit
+### BBEdit
 
 1.  Open the Application Preferences
 1.  Select “Text Encodings” on the left.
